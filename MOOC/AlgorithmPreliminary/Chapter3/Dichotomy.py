@@ -8,7 +8,7 @@ def Dichotomy(arr, x):
             return mid
         elif x < arr[mid]:
             high = mid - 1
-        elif x > arr[mid]:
+            
             low = mid + 1
         print(f"low = {low}, high = {high}")
 
